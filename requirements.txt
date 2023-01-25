@@ -4,4 +4,4 @@ pillow
 pandas
 
 # 金融数据库
-quandl
+pandas_datareader==0.10.0

@@ -1,0 +1,7 @@
+pytorch
+torchvision
+pillow
+pandas
+
+# 金融数据库
+quandl

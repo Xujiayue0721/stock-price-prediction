@@ -17,3 +17,6 @@ COLORS = {'black': '\033[30m',  # basic colors
           'end': '\033[0m',  # misc
           'bold': '\033[1m',
           'underline': '\033[4m'}
+
+# 去除id、股票代码、前一天的收盘价、交易日期等对训练无用的无效数据
+INVALID_DATA = ['ts_code', 'id', 'pre_close', 'trade_date', 'date']
